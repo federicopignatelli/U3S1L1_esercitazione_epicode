@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonComponent from './components/ButtonComponent';
+import CatImage from './components/CatImage';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <ButtonComponent textbutton="CIAONE!" />
+        <CatImage urlimage="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          altimage="react" />
       </header>
     </div>
   );
